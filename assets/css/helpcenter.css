@@ -1,0 +1,167 @@
+.text-gray {
+  color: #ccc; }
+
+.breadcrumb a {
+  color: #4eb0f7; }
+  .breadcrumb a:hover {
+    color: #3292d8; }
+
+.visible {
+  opacity: 1 !important;
+  visibility: visible !important; }
+
+.navbar-help {
+  background-image: linear-gradient(120deg, #00c6fb 0%, #005bea 100%); }
+  .navbar-help .nav-link {
+    color: #fff; }
+  .navbar-help .navbar-brand {
+    font-size: 14px;
+    color: #fff; }
+    .navbar-help .navbar-brand img {
+      width: 30px;
+      filter: invert(100%); }
+  .navbar-help .search {
+    border-radius: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s; }
+    .navbar-help .search::placeholder {
+      color: #ccc;
+      font-size: 14px; }
+    .navbar-help .search:-ms-input-placeholder {
+      color: #ccc;
+      font-size: 14px; }
+    .navbar-help .search::-ms-input-placeholder {
+      color: #ccc;
+      font-size: 14px; }
+  .navbar-help.active .search {
+    opacity: 1;
+    visibility: visible; }
+
+.wrapper-app .header {
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 5rem 0;
+  background: lightblue;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(120deg, #00c6fb 0%, #005bea 100%); }
+  .wrapper-app .header .search {
+    padding: 2.5rem 2rem;
+    border-radius: 50px; }
+    .wrapper-app .header .search::placeholder {
+      color: #ccc; }
+    .wrapper-app .header .search:-ms-input-placeholder {
+      color: #ccc; }
+    .wrapper-app .header .search::-ms-input-placeholder {
+      color: #ccc; }
+.wrapper-app .sidebar {
+  padding: 5rem 2rem 5rem 2rem;
+  position: fixed;
+  width: 250px;
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+  border-right: 1px solid #f5f5f5;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */ }
+  .wrapper-app .sidebar .ps__rail-x,
+  .wrapper-app .sidebar .ps__rail-y {
+    opacity: 0.6; }
+  .wrapper-app .sidebar ul li {
+    padding: 1rem 0;
+    cursor: pointer;
+    position: relative; }
+    .wrapper-app .sidebar ul li span {
+      font-weight: 600; }
+      .wrapper-app .sidebar ul li span:before {
+        font-family: 'Material Icons';
+        content: 'keyboard_arrow_right';
+        position: absolute;
+        left: -20px; }
+    .wrapper-app .sidebar ul li span[aria-expanded="true"]:before {
+      font-family: 'Material Icons';
+      content: 'keyboard_arrow_down'; }
+    .wrapper-app .sidebar ul li ul {
+      margin-left: 1rem; }
+  .wrapper-app .sidebar::-webkit-scrollbar {
+    width: 5px; }
+  .wrapper-app .sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1; }
+  .wrapper-app .sidebar::-webkit-scrollbar-thumb {
+    background: #4eb0f7;
+    border-radius: 50px; }
+  .wrapper-app .sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555; }
+.wrapper-app .right-sidebar {
+  position: fixed;
+  right: 0;
+  top: 80px;
+  padding: 2rem;
+  width: 250px;
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+  border-left: 1px solid #efefef; }
+  .wrapper-app .right-sidebar li {
+    padding: .5rem 0;
+    list-style: decimal;
+    color: #4eb0f7; }
+    .wrapper-app .right-sidebar li a {
+      color: #4eb0f7; }
+      .wrapper-app .right-sidebar li a:hover {
+        color: #3292d8; }
+.wrapper-app .main-content {
+  margin-left: 250px;
+  padding: 2rem;
+  min-height: 100vh; }
+  .wrapper-app .main-content .help-box {
+    border: 1px solid #dcdcdc;
+    padding: 2rem 1rem;
+    height: 210px; }
+    .wrapper-app .main-content .help-box .material-icons {
+      font-size: 48px; }
+    .wrapper-app .main-content .help-box:hover {
+      background: #fdfdfd;
+      border-color: #4eb0f7; }
+      .wrapper-app .main-content .help-box:hover .material-icons {
+        color: #4eb0f7; }
+      .wrapper-app .main-content .help-box:hover .font-18 {
+        color: #4eb0f7; }
+  .wrapper-app .main-content .category .material-icons {
+    font-size: 28px;
+    margin-right: .5rem; }
+  .wrapper-app .main-content .breadcrumb {
+    background: transparent;
+    padding-left: 0; }
+  .wrapper-app .main-content .jumbotron {
+    background: transparent; }
+    .wrapper-app .main-content .jumbotron .material-icons {
+      font-size: 48px; }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .wrapper-app .sidebar {
+    width: 0;
+    padding: 0; }
+  .wrapper-app .right-sidebar {
+    position: initial;
+    height: auto;
+    font-size: 14px;
+    /*padding: .5rem 0;*/ }
+  .wrapper-app .header {
+    height: 300px; }
+    .wrapper-app .header .search {
+      padding: 1.5rem 2rem; }
+  .wrapper-app .main-content {
+    margin: 0;
+    padding: .5rem; }
+    .wrapper-app .main-content .breadcrumb {
+      font-size: 12px; } }
+
+/*# sourceMappingURL=helpcenter.css.map */

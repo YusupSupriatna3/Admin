@@ -1,0 +1,863 @@
+.win {
+  background: #50b649; }
+
+.lose {
+  background: #e61a1a; }
+
+.bootstrap-select .btn-light {
+  background: #fff;
+  border-color: #ced4da; }
+
+.input-group:not(.input-daterange) {
+  border: 1px solid #ced4da;
+  border-radius: 5px; }
+  .input-group:not(.input-daterange) .input-group-text {
+    background: transparent;
+    border: 0; }
+  .input-group:not(.input-daterange) .form-control {
+    border: 0; }
+  .input-group:not(.input-daterange):focus-within {
+    border-color: #80bdff; }
+
+.sidebar-app {
+  padding: 2rem 1rem;
+  background: #1d252c;
+  color: #cecece;
+  width: 300px;
+  height: 100vh;
+  position: fixed; }
+  .sidebar-app.caster {
+    background: #00315d; }
+  .sidebar-app .badge-app {
+    font-size: 10px;
+    background: #f75b37;
+    color: #ffffff;
+    padding: .2rem .7rem;
+    border-radius: 5px; }
+  .sidebar-app .badge-number {
+    background: red;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 25px;
+    min-height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; }
+  .sidebar-app .menu-app {
+    overflow-y: auto;
+    height: calc(100vh - 100px); }
+    .sidebar-app .menu-app ul li {
+      position: relative; }
+      .sidebar-app .menu-app ul li a {
+        color: #ffffff; }
+      .sidebar-app .menu-app ul li .material-icons {
+        position: relative;
+        top: 6px; }
+      .sidebar-app .menu-app ul li .item-app {
+        display: inline-block;
+        padding: .5rem 1rem;
+        margin: .5rem 0;
+        cursor: pointer;
+        width: 100%;
+        position: relative; }
+        .sidebar-app .menu-app ul li .item-app .icon-app {
+          margin-right: .5rem; }
+        .sidebar-app .menu-app ul li .item-app:hover, .sidebar-app .menu-app ul li .item-app.active {
+          color: #ffffff !important;
+          background: rgba(255, 255, 255, 0.2); }
+        .sidebar-app .menu-app ul li .item-app.dropdown.active {
+          background: transparent; }
+      .sidebar-app .menu-app ul li a.item-app {
+        color: #cecece !important; }
+        .sidebar-app .menu-app ul li a.item-app:hover {
+          color: #ffffff !important; }
+      .sidebar-app .menu-app ul li .collapse-content .item-app {
+        padding: .5rem 1rem .5rem 3rem;
+        margin: 0; }
+    .sidebar-app .menu-app ul.my-tournament li .item-app, .sidebar-app .menu-app ul.my-account li .item-app {
+      padding: 0.3rem 1rem;
+      margin: 0; }
+    .sidebar-app .menu-app ul.my-tournament .collapse-content, .sidebar-app .menu-app ul.my-account .collapse-content {
+      position: relative;
+      top: -.3rem; }
+      .sidebar-app .menu-app ul.my-tournament .collapse-content .item-app, .sidebar-app .menu-app ul.my-account .collapse-content .item-app {
+        padding-left: 2.9rem;
+        margin: 0; }
+  .sidebar-app .second-menu-app {
+    font-size: 12px;
+    margin-top: 1rem; }
+    .sidebar-app .second-menu-app li {
+      padding: .2rem 1rem; }
+  .sidebar-app .logo {
+    text-align: center;
+    margin-bottom: 2rem; }
+    .sidebar-app .logo img {
+      width: 70%; }
+
+.content-app {
+  background: #f5f5f5;
+  min-height: 100vh;
+  margin-left: 300px; }
+  .content-app .pagination {
+    margin-top: 2rem; }
+    .content-app .pagination ul li {
+      display: inline; }
+      .content-app .pagination ul li a {
+        display: inline-block;
+        padding: .5rem 1rem;
+        background: #ececec;
+        border-radius: 5px; }
+        .content-app .pagination ul li a.active {
+          background: #00315d;
+          color: #fff; }
+        .content-app .pagination ul li a.disbale {
+          background: #f1f1f1;
+          color: #ccc; }
+  .content-app .nav-app {
+    padding: 2rem;
+    display: flex; }
+    .content-app .nav-app .title-app {
+      font-size: 28px;
+      font-weight: 600; }
+    .content-app .nav-app .btnGrid, .content-app .nav-app .btnList {
+      cursor: pointer; }
+  .content-app .main-content {
+    padding: 2rem;
+    /* The container */ }
+    .content-app .main-content .rate {
+      color: #febe01; }
+    .content-app .main-content.caster .caster-avatar {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%; }
+    .content-app .main-content.caster .border-bottom {
+      .border-bottom: 1px solid #ccc; }
+    .content-app .main-content.caster small.title {
+      color: #b1b1b1; }
+    .content-app .main-content.caster .btn-outline-primary {
+      color: #007bff !important; }
+      .content-app .main-content.caster .btn-outline-primary:hover {
+        color: #fff !important; }
+    .content-app .main-content.caster .profile {
+      padding: .3rem 0;
+      border-bottom: 1px solid #f5f5f5; }
+    .content-app .main-content.caster .history {
+      padding: 1rem 0;
+      text-align: left; }
+      .content-app .main-content.caster .history:nth-child(even) {
+        background: #f3f3f3; }
+      .content-app .main-content.caster .history .history-icon {
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+        margin-right: .3rem; }
+    .content-app .main-content.caster .idr {
+      overflow: hidden; }
+    .content-app .main-content.caster .img-wrapper {
+      width: 100px;
+      height: 100px;
+      background: #ccc;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: auto; }
+    .content-app .main-content.caster .game-browse .tournament-game {
+      font-size: 12px;
+      font-weight: 600;
+      color: #a2a2a2; }
+    .content-app .main-content.caster .game-browse .tournament-time {
+      font-size: 12px; }
+    .content-app .main-content.caster .game-browse .icon {
+      width: 70px;
+      height: 70px;
+      object-fit: cover; }
+    .content-app .main-content.caster .game-browse .game {
+      padding: 1rem 0; }
+      .content-app .main-content.caster .game-browse .game:nth-child(even) {
+        background: #f3f3f3; }
+    .content-app .main-content a.btn {
+      color: #fff; }
+    .content-app .main-content .badge-app {
+      font-size: 10px;
+      background: #f75b37;
+      color: #ffffff;
+      padding: .2rem .7rem;
+      border-radius: 5px; }
+    .content-app .main-content .content-card {
+      border: 2px solid transparent;
+      min-height: 300px;
+      background: #ffffff; }
+      .content-app .main-content .content-card.create {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .content-app .main-content .content-card.create .material-icons {
+          font-size: 72px;
+          color: #f75b37; }
+      .content-app .main-content .content-card .card-image {
+        height: 200px;
+        width: 100%;
+        object-fit: cover; }
+      .content-app .main-content .content-card .game-name {
+        padding: .5rem 1rem; }
+        .content-app .main-content .content-card .game-name .game-icon {
+          width: 30px;
+          height: 30px;
+          object-fit: cover;
+          margin-right: .2rem; }
+      .content-app .main-content .content-card .tournament-name {
+        padding: 0 1rem;
+        font-weight: 600;
+        font-size: 20px; }
+      .content-app .main-content .content-card:hover {
+        border: 2px solid #f75b37; }
+    .content-app .main-content .list-card {
+      -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+      -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+      box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16); }
+      .content-app .main-content .list-card .list-card-header {
+        padding: 2rem;
+        background: #1d252c;
+        color: #ffffff; }
+        .content-app .main-content .list-card .list-card-header a {
+          color: #ffffff; }
+        .content-app .main-content .list-card .list-card-header .card-title {
+          font-size: 28px;
+          font-weight: 600;
+          margin: 0; }
+        .content-app .main-content .list-card .list-card-header .filter {
+          cursor: pointer; }
+      .content-app .main-content .list-card .list-card-filter {
+        padding: 2rem 2rem 3rem 2rem; }
+      .content-app .main-content .list-card .list-card-content {
+        padding: 1rem;
+        background: #ffffff; }
+        .content-app .main-content .list-card .list-card-content .game-icon img {
+          width: 50px;
+          height: 50px;
+          object-fit: cover; }
+        .content-app .main-content .list-card .list-card-content .tournament-name {
+          font-weight: 600; }
+        .content-app .main-content .list-card .list-card-content .game-list:hover {
+          background: #efefef; }
+          .content-app .main-content .list-card .list-card-content .game-list:hover .game-name a {
+            color: #f75b37; }
+    .content-app .main-content .popular-dicipline {
+      height: 200px;
+      padding: .5rem; }
+    .content-app .main-content .radio-dicipline {
+      display: block;
+      position: relative;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      height: 100%; }
+      .content-app .main-content .radio-dicipline:hover input ~ .checkmark {
+        border: 3px solid #f75b37; }
+      .content-app .main-content .radio-dicipline input {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+        cursor: pointer; }
+        .content-app .main-content .radio-dicipline input:checked ~ .checkmark {
+          border: 3px solid #f75b37; }
+      .content-app .main-content .radio-dicipline .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #eee;
+        border: 3px solid transparent; }
+        .content-app .main-content .radio-dicipline .checkmark img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+    .content-app .main-content .platform-select {
+      cursor: pointer;
+      width: 100%; }
+      .content-app .main-content .platform-select .checkmark {
+        background-color: #ccc;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding: .5rem 1rem;
+        color: #fff; }
+      .content-app .main-content .platform-select input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0; }
+      .content-app .main-content .platform-select:hover input ~ .checkmark {
+        background-color: #e6e6e6;
+        color: #b1b1b1; }
+      .content-app .main-content .platform-select input:checked ~ .checkmark {
+        background-color: #f75b37;
+        color: #ffffff; }
+    .content-app .main-content .bootstrap-select .dropdown-menu {
+      padding: 0; }
+      .content-app .main-content .bootstrap-select .dropdown-menu .bs-searchbox {
+        padding: .8rem .5rem; }
+      .content-app .main-content .bootstrap-select .dropdown-menu .dropdown-item {
+        padding: .5rem .8rem; }
+        .content-app .main-content .bootstrap-select .dropdown-menu .dropdown-item.active {
+          background: #f75b37; }
+        .content-app .main-content .bootstrap-select .dropdown-menu .dropdown-item:active {
+          background: #f75b37; }
+    .content-app .main-content .overview {
+      border: none;
+      -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+      -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+      box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16); }
+      .content-app .main-content .overview.first .card-header .card-icon img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover; }
+      .content-app .main-content .overview.first .card-body {
+        min-height: 160px; }
+        .content-app .main-content .overview.first .card-body .progress {
+          height: .3rem; }
+      .content-app .main-content .overview:not(.first) .card-header {
+        font-weight: 600;
+        font-size: 20px;
+        padding: 1.7rem 1rem; }
+      .content-app .main-content .overview:not(.first) .card-body {
+        font-size: 14px;
+        text-align: center;
+        min-height: 160px; }
+    .content-app .main-content .btn-pwd {
+      background: #f75b37;
+      color: #fff;
+      cursor: pointer; }
+      .content-app .main-content .btn-pwd:hover {
+        background: #e65432; }
+    .content-app .main-content .dropdown.structure .dropdown-toggle::after {
+      display: none; }
+    .content-app .main-content .card-cover-structure {
+      min-height: 190px;
+      text-align: center; }
+    .content-app .main-content .card-image-structure {
+      width: 150px; }
+    .content-app .main-content .bootstrap-select.bracket-group span.text {
+      display: inline-grid; }
+      .content-app .main-content .bootstrap-select.bracket-group span.text small.text-muted {
+        padding: 0;
+        white-space: normal; }
+    .content-app .main-content .bootstrap-select.bracket-group .dropdown-menu {
+      max-width: 100%;
+      min-width: 100% !important; }
+    .content-app .main-content fieldset.fieldset-app {
+      border: 1px groove #ddd !important;
+      padding: 0 1.4em 1.4em 1.4em !important;
+      margin: 0 0 1.5em 0 !important;
+      -webkit-box-shadow: 0px 0px 0px 0px #000;
+      box-shadow: 0px 0px 0px 0px #000; }
+    .content-app .main-content fieldset legend.legend-app {
+      font-size: 16px;
+      text-align: left;
+      width: auto;
+      padding: 0 10px;
+      border-bottom: none; }
+    .content-app .main-content fieldset legend .checkbox-legend {
+      display: block;
+      position: relative;
+      cursor: pointer;
+      padding-left: 2rem; }
+      .content-app .main-content fieldset legend .checkbox-legend input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0; }
+      .content-app .main-content fieldset legend .checkbox-legend .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        display: flex;
+        justify-content: center; }
+        .content-app .main-content fieldset legend .checkbox-legend .checkmark:after {
+          content: "";
+          position: absolute;
+          display: none; }
+      .content-app .main-content fieldset legend .checkbox-legend:hover input ~ .checkmark {
+        background-color: #ccc; }
+      .content-app .main-content fieldset legend .checkbox-legend input:checked ~ .checkmark {
+        background-color: #f75b37; }
+      .content-app .main-content fieldset legend .checkbox-legend input:checked ~ .checkmark:after {
+        display: block; }
+      .content-app .main-content fieldset legend .checkbox-legend .checkmark:after {
+        content: 'check';
+        font-family: 'Material Icons';
+        color: #fff; }
+    .content-app .main-content .tournament {
+      display: flex;
+      flex-direction: row;
+      overflow-x: auto;
+      overflow-y: hidden; }
+      .content-app .main-content .tournament.placement .wrapper-team {
+        background: #f5f5f5 !important; }
+      .content-app .main-content .tournament .round {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 200px; }
+        .content-app .main-content .tournament .round .space {
+          flex-grow: 1;
+          position: relative;
+          height: 36px; }
+          .content-app .main-content .tournament .round .space:first-child, .content-app .main-content .tournament .round .space:last-child {
+            flex-grow: .5; }
+        .content-app .main-content .tournament .round .team {
+          font-size: 14px;
+          padding: .5rem 0;
+          position: relative; }
+          .content-app .main-content .tournament .round .team.space {
+            border-right: 2px solid #c5c5c5;
+            border-top: 3px solid #c5c5c5;
+            border-bottom: 3px solid #c5c5c5;
+            height: 114px; }
+          .content-app .main-content .tournament .round .team.top {
+            cursor: pointer;
+            z-index: 2; }
+            .content-app .main-content .tournament .round .team.top .wrapper-team {
+              top: 12px; }
+          .content-app .main-content .tournament .round .team.bottom {
+            cursor: pointer;
+            z-index: 2; }
+            .content-app .main-content .tournament .round .team.bottom .wrapper-team {
+              bottom: 12px; }
+          .content-app .main-content .tournament .round .team.edit {
+            color: #6767ff; }
+          .content-app .main-content .tournament .round .team .wrapper-team {
+            position: absolute;
+            background: #fff;
+            min-width: 180px;
+            left: 10px; }
+            .content-app .main-content .tournament .round .team .wrapper-team div {
+              /*padding: .3rem;*/
+              display: flex;
+              border: 1px solid #c5c5c5;
+              padding: .1rem .3rem;
+              display: flex;
+              align-items: center; }
+              .content-app .main-content .tournament .round .team .wrapper-team div:hover {
+                background: #f9f9f9; }
+              .content-app .main-content .tournament .round .team .wrapper-team div .score {
+                margin-left: auto;
+                border-left: 1px solid #c5c5c5;
+                min-width: 20px;
+                text-align: center;
+                font-weight: 500; }
+              .content-app .main-content .tournament .round .team .wrapper-team div .name {
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                max-width: 150px; }
+              .content-app .main-content .tournament .round .team .wrapper-team div.win {
+                background: #50b649;
+                color: #fff;
+                font-weight: 600; }
+              .content-app .main-content .tournament .round .team .wrapper-team div.lose {
+                background: #e61a1a;
+                color: #fff; }
+              .content-app .main-content .tournament .round .team .wrapper-team div.tbd, .content-app .main-content .tournament .round .team .wrapper-team div.lock {
+                background: #e5e5e5;
+                color: #adadad;
+                cursor: default; }
+        .content-app .main-content .tournament .round.one {
+          min-width: 190px; }
+          .content-app .main-content .tournament .round.one .team .wrapper-team {
+            left: 0; }
+            .content-app .main-content .tournament .round.one .team .wrapper-team:before {
+              display: block;
+              z-index: 1; }
+            .content-app .main-content .tournament .round.one .team .wrapper-team div:after {
+              display: none; }
+            .content-app .main-content .tournament .round.one .team .wrapper-team div:before {
+              top: 31px;
+              height: 3px; }
+            .content-app .main-content .tournament .round.one .team .wrapper-team.has-playoffs:before {
+              display: none; }
+        .content-app .main-content .tournament .round.winner .team .wrapper-team:before {
+          content: '';
+          width: 10px;
+          height: 2px;
+          background: #c5c5c5;
+          position: absolute;
+          left: -10px;
+          top: 15px; }
+        .content-app .main-content .tournament .round.winner .team .wrapper-team div:after {
+          display: none; }
+        .content-app .main-content .tournament .round.winner .team .wrapper-team div:before {
+          display: none; }
+        .content-app .main-content .tournament .round.playoff {
+          display: block;
+          padding-top: 20px; }
+          .content-app .main-content .tournament .round.playoff .space.top {
+            height: 40px; }
+          .content-app .main-content .tournament .round.playoff .team.space {
+            border: none;
+            height: 52px; }
+          .content-app .main-content .tournament .round.playoff .team.top .wrapper-team {
+            top: 0; }
+            .content-app .main-content .tournament .round.playoff .team.top .wrapper-team:before {
+              display: none; }
+            .content-app .main-content .tournament .round.playoff .team.top .wrapper-team div:after {
+              top: 24px;
+              height: 28px; }
+          .content-app .main-content .tournament .round.playoff .team.top.single {
+            opacity: 0;
+            visibility: hidden; }
+          .content-app .main-content .tournament .round.playoff .team.bottom {
+            margin-bottom: 7px; }
+            .content-app .main-content .tournament .round.playoff .team.bottom .wrapper-team {
+              bottom: 0; }
+          .content-app .main-content .tournament .round.playoff .wrapper-team {
+            left: 0; }
+            .content-app .main-content .tournament .round.playoff .wrapper-team:before {
+              content: '';
+              width: 12px;
+              background: #c5c5c5;
+              position: absolute;
+              height: 3px;
+              right: -20px;
+              top: 0; }
+            .content-app .main-content .tournament .round.playoff .wrapper-team div:after {
+              content: '';
+              background: #c5c5c5;
+              position: absolute;
+              width: 2px;
+              right: -10px;
+              left: inherit;
+              height: 24px;
+              top: 2px; }
+            .content-app .main-content .tournament .round.playoff .wrapper-team div:before {
+              content: '';
+              width: 12px;
+              background: #c5c5c5;
+              position: absolute;
+              height: 3px;
+              right: -10px;
+              left: inherit;
+              top: 24px; }
+      .content-app .main-content .tournament .material-icons {
+        font-size: 12px;
+        margin-right: .2rem; }
+        .content-app .main-content .tournament .material-icons.lock {
+          margin-left: auto;
+          font-size: 14px; }
+      .content-app .main-content .tournament.result {
+        border: 2px solid transparent; }
+        .content-app .main-content .tournament.result.tbd .top, .content-app .main-content .tournament.result.tbd .bottom {
+          color: #cccccc; }
+        .content-app .main-content .tournament.result:hover {
+          border: 2px solid #f75b37; }
+    .content-app .main-content .match .team {
+      font-size: 28px;
+      font-weight: 600;
+      color: #ccc; }
+    .content-app .main-content .match .vs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px; }
+    .content-app .main-content .match .match-header {
+      font-size: 12px; }
+    .content-app .main-content .match-setting .radio-setting {
+      margin: 0;
+      cursor: pointer;
+      width: 100%;
+      height: 37px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+      .content-app .main-content .match-setting .radio-setting:hover input ~ .checkmark {
+        color: #fff; }
+        .content-app .main-content .match-setting .radio-setting:hover input ~ .checkmark.win {
+          background: #007bfe; }
+        .content-app .main-content .match-setting .radio-setting:hover input ~ .checkmark.draw {
+          background: #28a745; }
+        .content-app .main-content .match-setting .radio-setting:hover input ~ .checkmark.lose {
+          background: #dc3545; }
+      .content-app .main-content .match-setting .radio-setting input {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+        cursor: pointer; }
+        .content-app .main-content .match-setting .radio-setting input:checked ~ .checkmark {
+          color: #fff; }
+          .content-app .main-content .match-setting .radio-setting input:checked ~ .checkmark.win {
+            background: #007bfe; }
+          .content-app .main-content .match-setting .radio-setting input:checked ~ .checkmark.draw {
+            background: #28a745; }
+          .content-app .main-content .match-setting .radio-setting input:checked ~ .checkmark.lose {
+            background: #dc3545; }
+      .content-app .main-content .match-setting .radio-setting .checkmark {
+        background-color: #eee;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+    .content-app .main-content .match-setting .table td, .content-app .main-content .match-setting .table th {
+      vertical-align: middle; }
+    .content-app .main-content .filter-option .badge-app-select {
+      background: #f75b37;
+      color: #ffffff;
+      padding: .2rem 1rem;
+      border-radius: 5px;
+      font-size: 14px; }
+    .content-app .main-content .disable {
+      opacity: .5;
+      pointer-events: none; }
+    .content-app .main-content #remove {
+      cursor: pointer; }
+    .content-app .main-content pre {
+      margin: 0 !important; }
+      .content-app .main-content pre code {
+        display: block;
+        overflow: auto;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        word-break: break-all;
+        font: 400 0.75rem/1.2em monospace;
+        color: #262626;
+        background: #f2f2f2;
+        margin: 0; }
+
+@media (min-width: 1281px) {
+  .card-columns {
+    column-count: 2 !important; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tournament {
+    overflow: auto; }
+
+  .tournamentffa .table .player, .tournamentffa .table .team-member {
+    min-width: 250px; }
+  .tournamentffa .table .points {
+    min-width: 100px; }
+
+  .card-columns {
+    column-count: 1 !important; }
+
+  .btn .icon-app {
+    width: 16px !important; }
+  .btn span {
+    margin-left: .5rem !important; }
+
+  .icon-app {
+    width: 24px !important; }
+
+  .wrapper-app .sidebar-app {
+    width: 0;
+    padding: 0;
+    z-index: 99;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    overflow-x: hidden;
+    white-space: nowrap; }
+    .wrapper-app .sidebar-app.active {
+      width: 250px;
+      padding: .5rem;
+      height: calc(100vh + 79px); }
+    .wrapper-app .sidebar-app .menu-app {
+      height: 100vh; }
+      .wrapper-app .sidebar-app .menu-app ul li .item-app {
+        font-size: 14px; }
+      .wrapper-app .sidebar-app .menu-app .btnClose {
+        display: block !important;
+        position: absolute;
+        right: 10px;
+        top: 11px; }
+    .wrapper-app .sidebar-app .logo img {
+      width: 150px; }
+  .wrapper-app .content-app {
+    margin: 0; }
+    .wrapper-app .content-app nav.nav-app {
+      padding: .5rem;
+      display: inherit; }
+      .wrapper-app .content-app nav.nav-app .title-app {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        text-align: center; }
+      .wrapper-app .content-app nav.nav-app .nav-action-app {
+        display: inherit !important; }
+        .wrapper-app .content-app nav.nav-app .nav-action-app .mr-2 {
+          margin: 0 !important; }
+        .wrapper-app .content-app nav.nav-app .nav-action-app .btn {
+          margin-bottom: .5rem !important;
+          font-size: 14px !important;
+          width: 100%; }
+          .wrapper-app .content-app nav.nav-app .nav-action-app .btn .material-icons {
+            font-size: 18px;
+            margin-right: .5rem !important; }
+    .wrapper-app .content-app .list-card .list-card-header {
+      padding: .5rem; }
+      .wrapper-app .content-app .list-card .list-card-header .card-title {
+        font-size: 14px; }
+      .wrapper-app .content-app .list-card .list-card-header .filter {
+        font-size: 14px; }
+    .wrapper-app .content-app .list-card .list-card-filter {
+      padding: 0; }
+    .wrapper-app .content-app .list-card .list-card-content {
+      font-size: 14px; }
+    .wrapper-app .content-app nav.nav-app-mobile {
+      background: #1d252c;
+      color: #fff;
+      display: block !important;
+      height: 45px; }
+      .wrapper-app .content-app nav.nav-app-mobile .btnMenu {
+        position: absolute; }
+      .wrapper-app .content-app nav.nav-app-mobile .logo {
+        margin-top: .3rem !important; }
+      .wrapper-app .content-app nav.nav-app-mobile.caster {
+        background: #12325d; }
+    .wrapper-app .content-app .main-content {
+      padding: .5rem !important;
+      overflow: hidden; }
+      .wrapper-app .content-app .main-content .mb-5 {
+        margin-bottom: 1rem !important; }
+      .wrapper-app .content-app .main-content .p-5 {
+        padding: .5rem !important; }
+  .wrapper-app fieldset.fieldset-app .mr-2 {
+    margin: 0 !important; }
+  .wrapper-app fieldset.fieldset-app .btn {
+    width: 100%; }
+
+  ul.nav-pills {
+    flex-wrap: initial;
+    overflow-x: auto; }
+    ul.nav-pills .nav-link {
+      width: max-content; } }
+@media (min-width: 320px) and (max-width: 480px) {
+  .tournament {
+    overflow: auto; }
+
+  .tournamentffa .table .player, .tournamentffa .table .team-member {
+    min-width: 250px; }
+  .tournamentffa .table .points {
+    min-width: 100px; }
+
+  .text-sm-center {
+    text-align: center; }
+
+  .flex-sm-center {
+    justify-content: center; }
+
+  .flex-sm-col {
+    flex-direction: column; }
+
+  .font-sm-12 {
+    font-size: 12px !important; }
+
+  .font-sm-14 {
+    font-size: 14px !important; }
+
+  .btn .icon-app {
+    width: 16px !important; }
+  .btn span {
+    margin-left: .5rem !important; }
+
+  .icon-app {
+    width: 24px !important; }
+
+  .wrapper-app .sidebar-app {
+    width: 0;
+    padding: 0;
+    z-index: 99;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    overflow-x: hidden;
+    white-space: nowrap; }
+    .wrapper-app .sidebar-app.active {
+      width: 250px;
+      padding: .5rem;
+      height: calc(100vh + 16px); }
+    .wrapper-app .sidebar-app .menu-app {
+      height: 100vh; }
+      .wrapper-app .sidebar-app .menu-app ul li .item-app {
+        font-size: 14px; }
+  .wrapper-app .content-app {
+    margin: 0; }
+    .wrapper-app .content-app nav.nav-app {
+      padding: .5rem;
+      display: inherit; }
+      .wrapper-app .content-app nav.nav-app .title-app {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        text-align: center; }
+      .wrapper-app .content-app nav.nav-app .nav-action-app {
+        display: inherit !important; }
+        .wrapper-app .content-app nav.nav-app .nav-action-app .mr-2 {
+          margin: 0 !important; }
+        .wrapper-app .content-app nav.nav-app .nav-action-app .btn {
+          margin-bottom: .5rem !important;
+          font-size: 14px !important;
+          width: 100%; }
+          .wrapper-app .content-app nav.nav-app .nav-action-app .btn .material-icons {
+            font-size: 18px;
+            margin-right: .5rem !important; }
+    .wrapper-app .content-app .list-card .list-card-header {
+      padding: .5rem; }
+      .wrapper-app .content-app .list-card .list-card-header .card-title {
+        font-size: 14px; }
+      .wrapper-app .content-app .list-card .list-card-header .filter {
+        font-size: 14px; }
+    .wrapper-app .content-app .list-card .list-card-filter {
+      padding: 0; }
+    .wrapper-app .content-app .list-card .list-card-content {
+      font-size: 14px; }
+    .wrapper-app .content-app nav.nav-app-mobile {
+      background: #1d252c;
+      color: #fff; }
+      .wrapper-app .content-app nav.nav-app-mobile.caster {
+        background: #12325d; }
+    .wrapper-app .content-app .main-content {
+      padding: .5rem !important;
+      overflow: hidden; }
+      .wrapper-app .content-app .main-content .mb-5 {
+        margin-bottom: 1rem !important; }
+      .wrapper-app .content-app .main-content .p-5 {
+        padding: .5rem !important; }
+  .wrapper-app fieldset.fieldset-app .mr-2 {
+    margin: 0 !important; }
+  .wrapper-app fieldset.fieldset-app .btn {
+    width: 100%; }
+
+  .dataTables_wrapper .dataTables_paginate, .dataTables_wrapper .dataTables_filter {
+    display: flex; }
+  .dataTables_wrapper .dataTables_length {
+    display: none; }
+  .dataTables_wrapper .dataTables_info {
+    text-align: left !important;
+    margin-bottom: .5rem; }
+
+  ul.nav-pills {
+    flex-wrap: initial;
+    overflow-x: auto; }
+    ul.nav-pills .nav-link {
+      width: max-content; }
+
+  .pagination {
+    font-size: 12px;
+    margin: auto; } }
+
+/*# sourceMappingURL=organizer.css.map */
